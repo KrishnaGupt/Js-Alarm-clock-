@@ -4,7 +4,10 @@
 }
 body{
     height: 90vh;
+    text-align: center;
     background: #eadff5;
+    position: absolute;
+    width: 100%;
 }
 .container{
     display: flex;
@@ -12,8 +15,9 @@ body{
     margin: 30px auto;
     align-items: center;
     background: #6e5fc340;
+    position: relative;
     color: white;
-    width: 550px;
+    width: 80%;
     box-shadow: 1px 1px 3px #0000008c;
     border-radius: 10px;
 }
